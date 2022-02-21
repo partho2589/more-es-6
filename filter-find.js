@@ -14,7 +14,7 @@ const products = [
     {name:'phone strant', price: 120, color:'sky', }
 ];
 const exprence = products.filter( product => product.price >= 200)
-// console.log(exprence);
+// console.log(exprence); 
 const blacks = products.filter(product => product.color == 'black');
 console.log(blacks);
 const whites= products.find(product => product.color == 'black')
